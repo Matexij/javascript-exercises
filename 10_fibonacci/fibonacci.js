@@ -6,6 +6,7 @@ const fibonacci = function(index) {
         return 0
     if(index<0)
         return 'OOPS'
+    
     const sum = fibonacci(index-1)+fibonacci(index-2)
     return sum
 };
